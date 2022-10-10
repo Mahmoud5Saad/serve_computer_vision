@@ -4,7 +4,6 @@ from PIL import Image
 import requests
 import json
 import torchvision
-import cv2 as cv
 import numpy as np
 
 app = FastAPI()
