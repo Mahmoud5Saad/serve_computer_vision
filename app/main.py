@@ -31,7 +31,6 @@ def face_detect(url):
     img_size = source_height*source_width
 
     boxes_list = boxes.tolist()
-    cv.imshow("preview", np.array(img))
     return {
                 "no_of_boxes": len(boxes_list),
                 "boxes": boxes_list,
