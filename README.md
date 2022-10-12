@@ -1,6 +1,6 @@
 # serve_computer_vision
 
-This is a repo in which we deploy a computer vision model for face detection and drawing bounding boxes on top of FastAPI then containerize them.
+This is a repo in which we deploy a computer vision model for face detection and drawing bounding boxes on top of FastAPI and uvicorn then containerize them using Docker.
 
 To use it you only have to build the container:
 
